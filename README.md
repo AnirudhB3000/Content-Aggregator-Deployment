@@ -1,45 +1,17 @@
-# ContentAggregator
-A Content Aggregation Website is a place where people can go to see all latest news and contents from different places.
-A content aggregator fetches information from various places online and gathers all of that information in one place. Therefore, you don’t have to visit multiple sites to get the latest info.
+While conducting research, it is often cumbersome to look through an entire article to find all relevant information which can be summarised in just a few lines. Even whilst creating social media posts, one needs to summarise many words in the best way possible.
+
+Thus, our project aims to decrease the word count of articles and thus make it easier to understand for those in a hurry
+
+This system will be most useful to content creators and social media managers. With the help of this web application, they can save hours and quite possibly even days of work.
 
 
-# Setting up
-1. Clone repository 
-```shell 
- git clone https://github.com/harryCarpio/ContentAggregator
-```
-2. Move into project
-```shell 
-cd ContentAggregator
-```
-3. Create a virtual environment and activate
-```shell 
-pip install virtualenv
-virtualenv venv
-source venv/Scripts/activate
-```
-4. Install requeriments 
-```shell
- pip install -r requirements.txt
-```
-5. Fetch feed news
-```shell 
-python manage.py aggregate
-```
-6. Run server 
-```shell 
-python manage.py runserver
-```
-7. Go to home Django home page http://127.0.0.1:8000/
+HARDWARE REQUIREMENTS FOR PRESENT PROJECT:
+PROCESSOR : Intel Pentium dual core or above.
+RAM : 2 GB
+HARD DISK : 160 GB
+
+SOFTWARE REQUIREMENTS FOR OUR PROJECT:
+OPERATING SYSTEM : Windows XP and above, Ubuntu v12.04 and above.
+SOFTWARE INSTALLATIONS NEEDED : Django~=3.2.7, requests~=2.26.0, bs4~=0.0.1, beautifulsoup4~=4.10.0, requests-html~=0.10.0
 
 
-# Features
-* Fetch feed news from three sources
-  * Mashable
-  * The verge
-  * TechCrunch
-* Shows list of feed news on Django home page
-  
-# Tech Stack
-* Django
-* Sqlite
