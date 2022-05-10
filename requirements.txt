@@ -1,4 +1,4 @@
-python~=3.6.5
+python~=3.5.1
 Django~=3.2.7
 requests~=2.26.0
 bs4~=0.0.1
